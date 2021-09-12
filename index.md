@@ -1,4 +1,6 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Greetings, fellow curious people! Welcome to my blog dedicated to my learning journey. In this blog, I will be writing about various mathematical/scientific topics.
+
+My name is Nurbek, I am a MSc student in applied mathematics, this blog started out as a way of disciplinging myself and documenting my courses. Additionally, according to Feynmann's learning method, the best way to learn something is to teach it. Thus buckle up, let's dive in!
 
 ![Image of fast.ai logo](images/logo.png)
 
