@@ -7,12 +7,12 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Hopeless math
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: jph00
+description: This blog is dedicated to my journey in math, happy learning! ❤
+github_username: NurikS
 
 # Email and twitter are optional:
 email:
-twitter_username:
+twitter_username: @noorikjj
 
 # Set this to true to get LaTeX math equation support
 use_math: true
