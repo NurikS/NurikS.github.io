@@ -32,9 +32,9 @@ However, not all functions can be considered a metric. For example, $d(x, y) = (
 such that all Cauchy sequences converge in X with respect to the given norm.
 In order for a function to be considered a valid metric, it has to follow certain axioms:
 
-- $d(x, y) \geq 0$, $d(x, y)=0 \implies x=y$ - non-negativity
-- $d(x, y) = d(y, x)$ - symmetry
-- $d(x, y) \leq d(x, z) + d(z, y)$ for all $x, z, y \in X$ - triangle inequality
+- $\lVert x \rVert \geq 0$, $\lVert x \rVert = 0 \implies x=0$ - non-negativity
+- $\lVert \lambda x \rVert =|\lambda| \lVert x \rVert$ - absolute homogeneity
+- $\lVert x+y \rVert \leq \lVert x \rVert + \lVert y \rVert$ for all $x, z, y \in X$ - triangle inequality
 
 ## Basic setup
 
