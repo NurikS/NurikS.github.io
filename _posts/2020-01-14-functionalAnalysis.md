@@ -40,7 +40,7 @@ In order for a function to be considered a valid norm, it has to follow certain 
 
 All $L^p$ spaces are Banach spaces, those spaces are also defined through their norms.
 
-$$f \in L^p \Longleftrightarrow \left\int{\lvert \lambda \rvert^p}\right^\frac{1}{p} < \infty$$
+$$f \in L^p \Longleftrightarrow \left(\int{\lvert f \rvert^p}\right)^\frac{1}{p} < \infty$$
 
 ## Basic setup
 
