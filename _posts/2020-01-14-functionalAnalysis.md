@@ -1,4 +1,3 @@
-\usepackage{mathtools}
 
 # Basic Functional Analysis
 
