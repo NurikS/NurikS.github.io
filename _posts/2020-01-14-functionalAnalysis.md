@@ -28,13 +28,19 @@ A set can be equipped with different metrics and we would get different metric s
 
 However, not all functions can be considered a metric. For example, $d(x, y) = (x-y)^2$ is not a valid metric. We can show it by providing an example $(3-1)^2>(3-2)^2+(2-1)^2$ which violates the triangle inequality.
 
-*Definition: A Banach space* is a set X equipped with some *norm* $\lVert\cdot\rVert$, which is an interpretation of length,
+*Definition: A Banach space* is a set complete normed vector space, meaning, X equipped with some *norm* $\lVert\cdot\rVert$, which is an interpretation of length,
 such that all Cauchy sequences converge in X with respect to the given norm.
 In order for a function to be considered a valid norm, it has to follow certain axioms:
 
 - $\lVert x \rVert \geq 0$, $\lVert x \rVert = 0 \implies x=0$ - non-negativity
 - $\lVert \lambda x \rVert = \lvert \lambda \rvert \lVert x \rVert$ - absolute homogeneity
-- $\lVert x+y \rVert \leq \lVert x \rVert + \lVert y \rVert$ for all $x, z, y \in X$ - triangle inequality
+- $\lVert x+y \rVert \leq \lVert x \rVert + \lVert y \rVert$ for all $x, y \in X$ - triangle inequality
+
+*Examples:*
+
+All $L^p$ spaces are Banach spaces, those spaces are also defined through their norms.
+
+$$f \in L^p iff (\int{\lvert \lambda \rvert^p})^\frac{1}{p} < \infty$$
 
 ## Basic setup
 
